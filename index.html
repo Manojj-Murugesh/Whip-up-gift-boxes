@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Gift Boxes</title>
+</head>
+<style>
+    body{
+        font-family: roboto;
+        color : white;
+        background-color: thistle;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    input{
+        padding: 15px;
+        margin-left: 280px;
+        margin-top: 70px;
+        width: 25%;
+    }
+    button{
+        margin-left:30px;
+        padding: 15px;
+        color: white;
+        background-color: rgb(134, 116, 134);
+    }
+    .gift
+    {
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    }
+    #image{
+    width: 80px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+</style>
+<body>
+    <div>
+        <h1 align="center">WHIP-UP GIFT BOXES</h1>
+        <hr>
+        <input type="number" placeholder="Enter the no. of gifts to Generate" id="count">
+        <button onclick="gen()">Generate</button>
+    </div>
+    <div class="gift" id="gen_gift">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
